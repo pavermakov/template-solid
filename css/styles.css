@@ -8,6 +8,10 @@
     background-color: #384452;
   }
 
+  .container__item_blue {
+    background-color: #00B3FE;
+  }
+
 .header {
   margin: 0 auto;
   height: 70px;
@@ -62,8 +66,40 @@
     color: #00B3FE;
   }
 
+.jumbotron {
+  margin: 0 auto;
+  max-width: 780px;
+  text-align: center;
+  padding-top: 30px;
+}
+  .jumbotron__heading {
+    margin: 20px 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .jumbotron__heading_major {
+    margin: 20px 0 25px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .jumbotron__heading_minor {
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    line-height: 15px;
+  }
 
-
+.snapshot {
+  margin: 0 auto;
+  max-width: 750px;
+}
+  .snapshot__cover {
+    display: block;
+    width: 100%;
+  }
 
 
 

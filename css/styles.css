@@ -12,11 +12,25 @@
     background-color: #00B3FE;
   }
 
+  .container__item_white {
+    background-color: #ffffff;
+  }
+
+.spacer {
+}
+  .spacer_full-width {
+    width: 100%;
+  }
+  .spacer_large {
+    max-width: 1170px;
+  }
+  .spacer_small {
+    max-width: 780px;
+  }
+
 .header {
   margin: 0 auto;
   height: 70px;
-  max-width: 1170px;
-  
 }
   .header__item {
     height: 100%;
@@ -68,7 +82,6 @@
 
 .jumbotron {
   margin: 0 auto;
-  max-width: 780px;
   text-align: center;
   padding-top: 30px;
 }
@@ -100,6 +113,87 @@
     display: block;
     width: 100%;
   }
+
+.info {
+  margin: 0 auto;
+}
+  .info__row {
+    /* float hack - https://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/ */
+    overflow: hidden;
+  }
+  .info__col {
+    display: block;
+    float: left;
+    max-width: 33.333%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .info__item {
+    padding: 15px;  
+  }
+  .info__cell {
+    text-align: center;
+  }
+  .info__icon {
+    font-size: 60px;
+    color: #00B3FE;
+  }
+  .info__header {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font: 18px/20px 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #384452;
+  }
+  .info__text {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font: 14px/24px 'Lato', sans-serif;
+    color: #384452;
+  }
+  .info__button {
+    /* fix to padding if possible */
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font: 14px/24px 'Lato', sans-serif;
+    color: white;
+    background-color: #384452;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+    user-select: none;
+  }
+  .info__button:hover {
+    background-color: #00B3FE;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

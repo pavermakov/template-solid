@@ -161,9 +161,7 @@
     border-radius: 4px;
     font: 14px/24px 'Lato', sans-serif;
     color: white;
-    background-color: #384452;
     border: 1px solid transparent;
-    cursor: pointer;
     -webkit-transition: background-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, color .4s linear;
@@ -174,6 +172,116 @@
   .info__button:hover {
     background-color: #00B3FE;
   }
+
+.portfolio {
+}
+  .portfolio__header {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font: 25px/26px 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #384452;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .portfolio__container {
+    overflow: hidden;
+  }
+  .portfolio__item {
+    display: inline-block;
+    float: right;
+    min-width: 20%;
+    height: 200px;
+  }
+
+.tile {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+  .tile__row {
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    transition: background-color 300ms ease-out;
+  }
+  .tile:hover > .tile__row {
+    background-color: rgba(0,179,254,.9);
+  }
+  .tile__cell {
+    position: relative;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: top 0.5s ease-out 0.3s, bottom 0.5s ease-out 0.3s, opacity 0.5ms ease-out 0.3s;
+  }
+  .tile__cell_top {
+    top: -50%;
+  }
+  .tile__cell_bottom {
+    bottom: -150%;
+  }
+  .tile:hover .tile__cell {
+    opacity: 1;
+  }
+  .tile:hover .tile__cell_top {
+    top: 50%;
+  }
+  .tile:hover .tile__cell_bottom {
+    bottom: -50%;
+  }
+  .tile__label {
+    font: 16px/18px 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .tile__button {
+    padding: 10px 22px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #ffffff;
+    transition: background-color 300ms ease-out;
+  }
+  .tile__button:hover {
+    background-color: #212222;
+  }
+  .tile_1 {
+    background-image: url(../img/portfolio/portfolio_01.jpg);
+  }
+  .tile_2 {
+    background-image: url(../img/portfolio/portfolio_02.jpg);
+  }
+  .tile_3 {
+    background-image: url(../img/portfolio/portfolio_03.jpg);
+  }
+  .tile_4 {
+    background-image: url(../img/portfolio/portfolio_04.jpg);
+  }
+  .tile_5 {
+    background-image: url(../img/portfolio/portfolio_05.jpg);
+  }
+  .tile_6 {
+    background-image: url(../img/portfolio/portfolio_06.jpg);
+  }
+  .tile_7 {
+    background-image: url(../img/portfolio/portfolio_07.jpg);
+  }
+  .tile_8 {
+    background-image: url(../img/portfolio/portfolio_08.jpg);
+  }
+  .tile_9 {
+    background-image: url(../img/portfolio/portfolio_09.jpg);
+  }
+  .tile_10 {
+    background-image: url(../img/portfolio/portfolio_10.jpg);
+  }
+
   
 
 
@@ -215,7 +323,15 @@
 
 
 
-
+  .button {
+    cursor: pointer;
+  }
+    .button_transparent{
+      background: none;
+    }
+    .button_dark {
+      background-color: #212222;
+    }
 
   .clearfix {
     content: '';

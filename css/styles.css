@@ -282,7 +282,70 @@
     background-image: url(../img/portfolio/portfolio_10.jpg);
   }
 
-  
+.about {
+  margin: 0 auto;
+}
+  .about__container {
+    padding: 80px 110px;
+    overflow: hidden;
+  }
+  .about__agency-info {
+    width: 400px;
+    float: left;
+  }
+  .about__header {
+    font: 18px/20px 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #2B2E31;
+  }
+    .about__header_underlined {
+      padding-bottom: 10px;
+      border-bottom: 2px solid #384452;
+    }
+  .about__description {
+    font: 14px/24px 'Lato', sans-serif;
+    font-weight: normal;
+    color: #384452;
+  }
+  .about__button {
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font: 14px/20px 'Lato', sans-serif;
+    color: #ffffff;
+  }
+  .about__description + .about__button {
+    margin-top: 25px;
+  }
+  .about__useful-info {
+    display: block;
+    overflow: hidden;
+  }
+  .about__agency-info + .about__useful-info {
+    padding-left: 15px;
+  }
+  .about__faq,
+  .about__latest-posts {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+    .about__list-item {
+      padding-top: 10px;
+      font: 14px/24px 'Lato', sans-serif;
+      font-weight: 400;
+      color: #428bca;
+      cursor: pointer;
+    }
 
 
 

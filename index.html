@@ -18,7 +18,7 @@
       <header class="header spacer spacer_large">
         <div class="header__item brand">
           <span class="brand__label">solid.</span>
-        </div>
+        </div><!-- .header__item .brand -->
         <nav class="header__item nav">
           <ul class="nav__items list">
             <li class="list__item list__item_active">home</li>
@@ -28,11 +28,11 @@
               pages
               <i class="fa fa-caret-down" aria-hidden="true"></i>
             </li>
-          </ul>
+          </ul><!-- .nav__items .list -->
           <div class="clearfix"></div>
-        </nav>
-      </header>
-    </div>
+        </nav><!-- .header__item .nav -->
+      </header><!-- .header spacer -->
+    </div><!-- .container__item -->
 
     <div class="container__item container__item_blue">
       <div class="jumbotron spacer spacer_small">
@@ -42,9 +42,9 @@
         <h3 class="jumbotron__heading jumbotron__heading_minor">More Lorem Ipsum added here too.</h3>
         <div class="jumbotron__snapshot snapshot">
           <img class="snapshot__cover" src="./img/browser.png" alt="browser snapshot">
-        </div>
-      </div>
-    </div>
+        </div><!-- .jumbotron__snapshot .snapshot -->
+      </div><!-- .jumbotron .spacer -->
+    </div><!-- .container__item -->
 
     <div class="container__item container__item_white">
       <div class="info spacer spacer_large">
@@ -54,11 +54,11 @@
               <div class="info__cell">
                 <div class="info__icon">
                   <i class="fa fa-heart-o" aria-hidden="true"></i>
-                </div>
-              </div>
+                </div><!-- .info__icon -->
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <h2 class="info__header">Handsomely Crafted</h2>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <p class="info__text">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -66,22 +66,22 @@
                   when an unknown printer took a galley of type and scrambled it to make a type 
                   specimen book.
                 </p>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <button class="info__button button button_dark">More Info</button>
-              </div>
-            </div>
-          </div>
+              </div><!-- .info__cell -->
+            </div><!-- .info__item -->
+          </div><!-- .info__col -->
           <div class="info__col">
             <div class="info__item">
               <div class="info__cell">
                 <div class="info__icon">
                   <i class="fa fa-flask" aria-hidden="true"></i>
-                </div>
-              </div>
+                </div><!-- .info__icon -->
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <h2 class="info__header">Retina Ready</h2>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <p class="info__text">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -89,22 +89,22 @@
                   when an unknown printer took a galley of type and scrambled it to make a type 
                   specimen book.
                 </p>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <button class="info__button button button_dark">More Info</button>
-              </div>
-            </div>
-          </div>
+              </div><!-- .info__cell -->
+            </div><!-- .info__item -->
+          </div><!-- .info__col -->
           <div class="info__col">
             <div class="info__item">
               <div class="info__cell">
                 <div class="info__icon">
                   <i class="fa fa-trophy" aria-hidden="true"></i>
-                </div>
-              </div>
+                </div><!-- .info__icon -->
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <h2 class="info__header">Quality Theme</h2>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <p class="info__text">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -112,18 +112,18 @@
                   when an unknown printer took a galley of type and scrambled it to make a type 
                   specimen book.
                 </p>
-              </div>
+              </div><!-- .info__cell -->
               <div class="info__cell">
                 <button class="info__button button button_dark">More Info</button>
-              </div>
-            </div>
-          </div>        
+              </div><!-- .info__cell -->
+            </div><!-- .info__item -->
+          </div><!-- .info__col -->
         </div><!-- .info__row -->
       </div><!-- .info -->
     </div><!-- .container__item -->
-  </div>
+  </div><!-- .container -->
 
-  <div class="container__item .container__item_white">
+  <div class="container__item container__item_white">
     <div class="portfolio spacer spacer_full-width">
       <h2 class="portfolio__header">latest works</h2>
       <div class="portfolio__container">
@@ -298,7 +298,47 @@
           </div><!-- .tile__row -->
         </div><!-- .portfolio__item, .tile -->
       </div><!-- .portfolio__container -->
-    </div><!-- .portfolio -->
+    </div><!-- .portfolio .spacer -->
   </div><!-- .container__item -->
+
+  <div class="container-item container__item_white">
+    <div class="about spacer spacer_large">
+      <div class="about__container">
+        <div class="about__agency-info">
+          <h3 class="about__header">more about our agency.</h3>
+          <p class="about__description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged.
+          </p>
+          <button class="about__button button button_dark">More Info</button>
+        </div><!-- .about__agency-info -->
+        <div class="about__useful-info">
+          <div class="about__faq">
+            <h3 class="about__header about__header_underlined">frequently asked</h3>
+            <ul class="about__list">
+              <li class="about__list-item">How cool is this theme?</li>
+              <li class="about__list-item">Need a nice good-looking site?</li>
+              <li class="about__list-item">Is this theme retina ready?</li>
+              <li class="about__list-item">Which version of Font Awesome uses?</li>
+              <li class="about__list-item">Free support is integrated?</li>
+            </ul><!-- .about__list -->
+          </div><!-- .about__faq -->
+          <div class="about__latest-posts">
+            <h3 class="about__header about__header_underlined">latest posts</h3>
+            <ul class="about__list">
+              <li class="about__list-item">Our new site is live now.</li>
+              <li class="about__list-item">Retina ready is not an option.</li>
+              <li class="about__list-item">Bootstrap 3 framework is the best.</li>
+              <li class="about__list-item">You need this theme, buy it now.</li>
+              <li class="about__list-item">This theme is what you need.</li>
+            </ul><!-- .about__list -->
+          </div><!-- .about__latest-posts -->
+        </div><!-- .about__useful-info -->
+      </div><!-- .about__container -->
+    </div><!-- .about .spacer -->
+  </div><!-- .container-item -->
 </body>
 </html>
